@@ -3,7 +3,7 @@
 This repository contains the source code for my personal portfolio website, showcasing my projects and skills in Computer Science.
 
 ## 🚀 Live Demo
-You can view the live site here: [https://nikakutsia.github.io/portfolio/](https://nikakutsia.github.io/portfolio/)
+You can view the live site here: [https://nikakutsia.github.io/Portfolio/](https://nikakutsia.github.io/Portfolio/)
 
 ## 🛠️ Tech Stack
 * **Frontend:** HTML5, CSS3, JavaScript
