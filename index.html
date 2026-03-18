@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="mt-5">
+        <h2>About Me</h2>
+        <p>Hi! I'm currently an applicant (3.9 GPA) and taking online courses in web development and cybersecurity. 
+           I plan to major in Computer Science and minor in Cybersecurity. I have a passion for learning and am always eager to take on new challenges.</p>
+    </section>
+
+    <section id="skills" class="mt-5">
+    <h2 class="mb-4">Technical Skills</h2>
+    <div class="d-flex flex-wrap gap-3">
+        <a href="URL_TO_PYTHON_CERT" target="_blank" class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20"> Python
+        </a>
+        
+        <a href="URL_TO_JS_CERT" target="_blank" class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20"> JavaScript
+        </a>
+        
+        <a href="https://www.freecodecamp.org/certification/nikakutsia/responsive-web-design" target="_blank" class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20"> HTML5/CSS3
+        </a>
+        
+        <a href="URL_TO_LINUX_CERT" target="_blank" class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="20"> Linux
+        </a>
+        
+        <a href="URL_TO_BOOTSTRAP_CERT" target="_blank" class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="20"> Bootstrap
+        </a>
+    </div>
+</section>
+
+    <section id="projects" class="mt-5">
+    <h2 class="mb-4">Featured Projects</h2>
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card project-card h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h5 class="project-title">Cyber Task Manager</h5>
+                        <span class="badge status-badge">Completed</span>
+                    </div>
+                    <p class="project-text">A secure task management application featuring AES-256 encryption for stored user data and a clean dashboard UI.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline-dark btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card project-card h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h5 class="project-title">Network Vulnerability Scanner</h5>
+                        <span class="badge status-badge">In Progress</span>
+                    </div>
+                    <p class="project-text">A Python-based tool that scans local networks for open ports and matches them against known CVE databases.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline-dark btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="mt-5">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <a href="mailto:ilovebatsxx@proton.me" class="contact-box mail">Email Me</a>
+            <a href="https://www.linkedin.com/in/nika-kutsia-51a6662aa" target="_blank" class="contact-box linkedin">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"> LinkedIn
+            </a>
+            <a href="https://www.fiverr.com/nikakutsia" target="_blank" class="contact-box fiverr">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/fiverr.svg" alt="Fiverr"> Fiverr
+            </a>
+            <a href="https://github.com/NikaKutsia" target="_blank" class="contact-box github">
+                <img src="https://cdn.simpleicons.org/github/white" alt="GitHub"> GitHub
+            </a>
+        </div>
+    </section>
+</body>
+</html>
