@@ -310,6 +310,12 @@ section {
   color: #000;
 }
 
+@media (max-width: 575px) {
+    #theme-toggle {
+        margin-left: 0;
+    }
+}
+
 @media (min-width: 576px) {
     nav li {
         margin-left: 30px;
